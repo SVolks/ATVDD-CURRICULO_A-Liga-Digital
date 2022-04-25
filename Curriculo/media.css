@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1312px){
+    button {
+        top: 0px;
+        left: 155px;
+        width: auto;
+    }
+    .fotoPerfil {
+        margin: 40px 18px;
+    }
+    .pregress {
+        margin: 1px 170px 5px 18px;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    .principal {
+        margin: 2% 10%;
+        justify-content: center;
+        margin: 0 150px;
+    }
+    .progress {
+        margin: 1px 100px 5px 20px;
+    }
+}
+
+@media only screen and (max-width: 790px){
+    .principal {
+        margin: 2% 10%;
+        margin: 0 80px;
+    }
+    body {
+        min-height: 1100px;
+    }
+    .progress {
+        margin: 1px 100px 5px 20px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .principal {
+        margin: 0.1% 0.1% 0.1% 0.1%;
+        justify-content: center;
+        margin: 0 80px;
+        display: -ms-inline-grid;
+    }
+    button {
+        left: 50px;
+        top: 3px;
+        font-weight: bold;
+    }
+    .progress {
+        margin: 1px 50px 5px 20px;
+    }
+    body {
+        min-height: 1150px;
+    }
+}
+
+@media only screen and (max-width: 556px){
+    body {
+        min-height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .principal {
+        justify-content: center;
+        margin: 0 50px;
+        grid-template-columns: inherit;
+    }
+    h1 {
+        font-size: 26px;
+        padding: 2px;
+    }
+    button {
+        width: 97px;
+        left: 95px;
+    }
+    .fotoPerfil {
+        max-width: 200px;
+        max-height: 200px;
+        width: auto;
+        height: auto;
+        margin: 35px 25%;
+    }
+    .descricao {
+        font-size: 12px;
+        scroll-margin-left: 5px;
+        
+    }
+    .blocoInfo {
+        font-size: 13px;
+    }
+    .subtitulo {
+        font-size: 15px;
+    }
+    .progress {
+        margin: 1px 4px 5px 4px;
+    }
+    body {
+        min-height: 1400px;
+    }
+    .info {
+        margin-left: 30px;
+    }
+}
